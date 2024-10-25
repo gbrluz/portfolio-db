@@ -26,29 +26,34 @@ function Habilidades(){
             </Texto>
 
             <Texto TamFonte={'20px'} Weight={'400'} top={'10px'}>
+                Qualidade
+            </Texto>
+
+            <ListaHabilidades texto={'Teste Unitários'} imagem={Nivel4} />
+            <ListaHabilidades texto={'Testes de Integração'} imagem={Nivel4} />
+            <ListaHabilidades texto={'RestAssured'} imagem={Nivel3} />
+            <ListaHabilidades texto={'Cypress'} imagem={Nivel2} />
+            <ListaHabilidades texto={'Selenium'} imagem={Nivel2} />
+
+
+            <Texto TamFonte={'20px'} Weight={'400'} top={'10px'}>
                 Back end
             </Texto>
 
-            <ListaHabilidades texto={'Java'} imagem={Nivel3} />
-            <ListaHabilidades texto={'Spring boot'} imagem={Nivel3} />
-            <ListaHabilidades texto={'Flyway'} imagem={Nivel3} />
-            <ListaHabilidades texto={'PHP'} imagem={Nivel3} />
+            <ListaHabilidades texto={'Java'} imagem={Nivel4} />
+            <ListaHabilidades texto={'Spring boot'} imagem={Nivel4} />
+            <ListaHabilidades texto={'Flyway'} imagem={Nivel4} />
 
             <Texto TamFonte={'20px'} Weight={'400'} top={'10px'}>
                 Front end
             </Texto>
 
             <ListaHabilidades texto={'HTML'} imagem={Nivel4} />
-            <ListaHabilidades texto={'CSS'} imagem={Nivel4} />
-            <ListaHabilidades texto={'React'} imagem={Nivel3} />
-            <ListaHabilidades texto={'JQuery'} imagem={Nivel3} />
+            <ListaHabilidades texto={'CSS'} imagem={Nivel3} />
+            <ListaHabilidades texto={'React'} imagem={Nivel2} />
 
-            <Texto TamFonte={'20px'} Weight={'400'} top={'10px'}>
-                Qualidade
-            </Texto>
+            
 
-            <ListaHabilidades texto={'Teste Unitários'} imagem={Nivel3} />
-            <ListaHabilidades texto={'Testes de Integração'} imagem={Nivel2} />
 
             <Texto TamFonte={'20px'} Weight={'400'} top={'10px'}>
                 Outros
@@ -56,7 +61,7 @@ function Habilidades(){
             <ListaHabilidades texto={'Git'} imagem={Nivel3} />
             <ListaHabilidades texto={'GitHub'} imagem={Nivel3} />
             <ListaHabilidades texto={'SQL'} imagem={Nivel3} />
-            <ListaHabilidades texto={'Docker'} imagem={Nivel2} />
+            <ListaHabilidades texto={'Docker'} imagem={Nivel3} />
 
         </ContainerHabilidades>
     )

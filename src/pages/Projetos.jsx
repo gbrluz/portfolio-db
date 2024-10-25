@@ -1,13 +1,11 @@
 import styled from "styled-components";
 import TextoProjeto from "../components/textoProjeto";
 import CardProjeto from "../components/cardProjeto";
-import VotacaoFront from '../assets/votacaoFrontend.jpg';
-import VotacaoBack from '../assets/votacaoBackend.jpg';
-import Flyway from '../assets/flyway.png';
-import CadastroCliente from '../assets/CadastroCliente.jpg';
-import Api  from '../assets/Api.png';
-import Food  from '../assets/food.png';
 import Pessoas  from '../assets/pessoas.jpg';
+import Viacep from '../assets/viacep.png'
+import Bugbank from '../assets/bugbank.jpg'
+import Library from '../assets/library.jpg'
+import School from '../assets/school.jpg'
 
 const ContainerProjetos = styled.div`
     min-height: 96vh;
@@ -50,59 +48,43 @@ function Projetos(){
             <TextoProjeto />
             <GridProjeto>
                 <CardProjeto 
-                    imagem={VotacaoFront} 
-                    titulo={'Votação Front End'}
-                    tecnologias={'React, Axios, Chakra UI'}
-                    descricao={'Essa é uma interface criada em react que permite o usuário votar em diferentes pautas. Ela se comunica com a API através da ferramenta axios'}
-                    link={'https://github.com/Samara-Bastos/Votacao_React'} 
+                    imagem={Viacep} 
+                    titulo={'Automação VIACEP'}
+                    tecnologias={'Java, RestAssured, Junit'}
+                    descricao={'Essa é uma automação de testes na API pública VIACEP que aborda diferentes cenários de entrada e suas respostas.'}
+                    link={'https://github.com/gbrluz/automacao-teste-cep'} 
                 />
 
                 <CardProjeto 
-                    imagem={VotacaoBack} 
-                    titulo={'Votação Back End'}
-                    tecnologias={'Java, Spring Boot, Flyway, Docker, PostgreSQL'}
-                    descricao={'Essa é a API do sistema de votação, ela foi construida em Java juntamente com Spring boot e tem como a principal funcionalidade a administração de pautas, usuarios e votos.'}
-                    link={'https://github.com/Samara-Bastos/Votacao_Java'} 
+                    imagem={Bugbank} 
+                    titulo={'Automação BugBank'}
+                    tecnologias={'Java, Selenium, JUnit'}
+                    descricao={'Essa é uma automação de testes no protótipo de banco digital BugBank, onde testamos a funcionalidade dos principais recursos desejados.'}
+                    link={'https://github.com/gbrluz/automacao-teste-bugrank'} 
                 />
 
                 <CardProjeto 
-                    imagem={Pessoas} 
+                    imagem={Pessoas}
                     titulo={'Crud Pessoas'}
                     tecnologias={'Java, Spring Boot, Docker, PostgreSQL, Mockito, MockMvc'}
+                    descricao={'Essa é uma API que faz o gerenciamento de pessoas e de endereços que estão relacionados entre si.'}
+                    link={'https://github.com/gbrluz/crud-pessoa'}   
+                />
+
+                <CardProjeto 
+                    imagem={Library} 
+                    titulo={'Crud Biblioteca'}
+                    tecnologias={'Java, Spring Boot, PostgreSQL, Flyway, FeignClient, Mockito, JUnit'}
+                    descricao={'Essa é uma API que faz o gerenciamento completo de uma bibioteca e seus usuários. A aplicação contém várias regras de negócios internas e também validação de ISBN pela API Google Books.'}
+                    link={'https://github.com/gbrluz/library-api'}   
+                />
+
+                <CardProjeto 
+                    imagem={School} 
+                    titulo={'Crud Escola'}
+                    tecnologias={'Java, Spring Boot, PostgreSQL, Flyway, Mockito, JUnit'}
                     descricao={'Essa é uma API que contém um crud de pessoas e um de endereços que estão relacionados entre si, nele é usado o Java, Spring, JPA e testes com Mockito e MockMvc.'}
-                    link={'https://github.com/Samara-Bastos/Crud_pessoa_Java'}   
-                />
-
-                <CardProjeto 
-                    imagem={Flyway} 
-                    titulo={'Flyway'}
-                    tecnologias={'Java, Spring Boot, Flyway, Docker, PostgreSQL'}
-                    descricao={'Essa é uma API simples, com um crud de noticias, que tem como o seu principal objetivo a exploração da ferramenta Flyway.'}
-                    link={'https://github.com/Samara-Bastos/Flyway_Java'} 
-                />
-
-                <CardProjeto 
-                    imagem={CadastroCliente} 
-                    titulo={'Clientes Front End'}
-                    tecnologias={'React, Axios, Chakra UI'}
-                    descricao={'Essa é uma interface construida em react que tem como o seu principal objetivo a comunicação entre front e back através da ferramenta Axios.'}
-                    link={'https://github.com/Samara-Bastos/Formulario_Cliente_React'}   
-                />
-
-                <CardProjeto 
-                    imagem={Api} 
-                    titulo={'Clientes Back End'}
-                    tecnologias={'Java, Spring Boot, Docker, PostgreSQL'}
-                    descricao={'Essa é a API cliente, que tem como o seu principal objetivo a comunicação entre front e back'}
-                    link={'https://github.com/Samara-Bastos/Api_Cliente_Java'}  
-                />
-
-                <CardProjeto 
-                    imagem={Food} 
-                    titulo={'Foods'}
-                    tecnologias={'React'}
-                    descricao={'Essa é uma interface simples construida em react que exibe um catalogo de comidas com exemplos de imagens ilustrativas.'}
-                    link={'https://github.com/Samara-Bastos/Catalogo_comidas_React'}   
+                    link={'https://github.com/gbrluz/crud-escola'}   
                 />
 
             </GridProjeto>

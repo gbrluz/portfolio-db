@@ -2,7 +2,7 @@ import styled from "styled-components";
 import logo from '../../assets/logoDB.svg';
 import GitHub from '../../assets/gitHub.svg';
 import Linkedin from '../../assets/linkedin.svg';
-import Curriculo from '../../assets/Samara_Bastos_Desenvolvedora.pdf';
+import Curriculo from '../../assets/GABRIEL_LUZ.pdf';
 import { Link  } from 'react-router-dom';
 
 const Background = styled.div`
@@ -95,10 +95,10 @@ function Cabecalho(){
                 </Lista>
             </Menu>
             <Menu>
-                <Link to={"https://github.com/Samara-Bastos"} target="_blank">
+                <Link to={"https://github.com/gbrluz"} target="_blank">
                     <Imagem src={GitHub} alt="Link GitHub"/>
                 </Link>
-                <Link to={"https://www.linkedin.com/in/samara-bastos-397375241/"} target="_blank"> 
+                <Link to={"https://www.linkedin.com/in/gabrielhsml/"} target="_blank"> 
                     <Imagem src={Linkedin} alt="Link Linkedin"/>
                 </Link>
             </Menu>

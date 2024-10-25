@@ -19,10 +19,10 @@ function Apresentacao(){
                 Olá, meu nome é
             </Texto>
             <Texto TamFonte={'80px'} Weight={'700'} fontFamily={'Roboto Flex'}>
-                Samara Bastos
+                Gabriel Luz
             </Texto>
             <Texto TamFonte={'36px'} Weight={'400'} fontFamily={'Supermolot Regular'}>
-                Sou desenvolvedora FullStack na DBServer
+                Sou trainne de Quality Assurance na DBServer
             </Texto>
         </ContainerApresentacao>
     )
